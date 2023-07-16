@@ -1,4 +1,4 @@
-//"const" sirve para crear variables fijas, es decir, no puede ser reasignadas
+//"const" sirve para crear variables fijas no generales (como "let") pero, no puede ser reasignadas
 // const producto = 'Tablet';
 // producto = 'Monitor';
 // console.log(producto);
