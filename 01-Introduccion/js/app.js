@@ -5,7 +5,7 @@
 
 console.log('Hola mundo');
 function hola() {
-    console.log('Hola mundo')
+    console.log('Hola mundo') //Para escribir rapidamente 'console.log()' = clg + tab
     console.log('Hola')
     console.log('mundo')
 }

@@ -1,0 +1,1 @@
+//A un objecto le puedes añadir methods pero a una variable no pueddes a no ser que sea String
