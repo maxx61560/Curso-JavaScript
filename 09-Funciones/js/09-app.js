@@ -24,3 +24,7 @@ reproductor.pausar();
 reproductor.borrar('Max');
 reproductor.crearPlaylist('Max');
 reproductor.reproducirPlaylist('2023');
+
+//Ejemplo personal:
+const nombrePlaylist = prompt('Añade nombre a la Playlist: '); //Creo una variable con el valor String que añada el usuario (promp() = input) y hago que la función 'nombrePlaylist' del objeto 'reproductor' transmita el mensaje a la consola con el nombre personalizado que ha escogido el usuario.
+reproductor.crearPlaylist(nombrePlaylist);

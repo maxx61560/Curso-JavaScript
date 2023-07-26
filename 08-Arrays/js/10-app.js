@@ -12,6 +12,7 @@ newArray.forEach(function (producto) { //Salta error porque no hay ninguna varia
 })
 
 //Otra manera de hacer linea 10 y 11:  crea arreglo nuevo
-newArray2.map(function (producto) { //var.map(function(item)){} <-- crea arrreglo nuevo a diferencia del '.forEach()'
+newArray2 = carrito.map(function (producto) { //var.map(function(item)){} <-- crea arrreglo nuevo a diferencia del '.forEach()'
     return `${producto.nombre} - Precio: ${producto.precio}`;
 })
+console.log(newArray2);
