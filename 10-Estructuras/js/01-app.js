@@ -1,5 +1,3 @@
-//Estructuras de Control = Bucles (if, elif, else, for, while...)
-
 const puntaje = 1000;
 if (puntaje == 1000) { //if = si. Tentro de '()' va la condición. Si la condición se cumple ejecutará el codigo de dentro del 'if'. '==' significa 'igual a'
     console.log('si es igual');
