@@ -3,7 +3,7 @@ console.log(encabezado);
 
 //Para acceder a un texto determinado desde el código JavaScript:
 //Primero se guarda un el contenido de un selector en una variable (como se ha hecho arriba) y después de aplican los siguientes métodos.
-console.log(encabezado.innerText); //No reconoce la etiqueta/clase de HTML (ex: '.contenido-hero h1' <-- el de arriba), porque esta asignando un visibility-hidden en CSS, es por eso que no 'lo puede ver'.
+console.log(encabezado.innerText); //Te muestra todo el contenido de la etiqueta incluyendo las mismas etiquetas (como '.innerHTML') pero si le añades un estilo de 'visibility-hidden', puede ocultarlo (mediante estilos CSS).
 console.log(encabezado.textContent); //Te muestra el contenido de la etiquetada deseada (pero sin las etiquetas. Ex: '<h1></h1>').
 console.log(encabezado.innerHTML); //Te muestra todo el contenido de la etiqueta incluyendo las etiquetas.
 
